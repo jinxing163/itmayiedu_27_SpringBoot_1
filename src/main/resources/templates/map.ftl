@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-  map
+
+  name:<div th:text="${name}"></div>
+  job:<div th:text="${job}"></div>
+
 </body>
 </html>

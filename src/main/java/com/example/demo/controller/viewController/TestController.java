@@ -44,6 +44,9 @@ public class TestController {
     @RequestMapping("/map")
     public ModelAndView map(){
         ModelAndView modelAndView=new ModelAndView("map");
+        modelAndView.addObject("name","金星");
+        modelAndView.addObject("job","开发");
+
         return modelAndView;
     }
 
