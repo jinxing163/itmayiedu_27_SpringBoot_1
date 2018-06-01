@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    mode: HTML5 # Template mode to be applied to templates. See also StandardTemplateModeHandlers.
+    suffix: .ftl # Suffix that gets appended to view names when building a URL.
+    encoding: utf-8 # Template encoding.
+    cache: true   # Enable template caching.
+    prefix: classpath:/templates/ # Prefix that gets prepended to view names when building a URL.
+
